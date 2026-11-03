@@ -1,11 +1,18 @@
 # merge-sorted-arrays
 
-Merge 3 sorted arrays into 1 sorted array using O(n1 + n2 + n3).
+Merge 3 sorted integer arrays into 1 array sorted ascending in O(n1 + n2 + n3) time.
+
+- `collection_1`, `collection_2`: sorted ascending (min -> max)
+- `collection_3`: sorted descending (max -> min)
+
+## Requirements
+
+- Node.js 18+
 
 ## Usage
 
 ```bash
-npm install
-npm start      # runs src/index.ts
-npm test
+npm install    # install dependencies
+npm start      # run the demo (src/index.ts)
+npm test       # run unit tests
 ```
